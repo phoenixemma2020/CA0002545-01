@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--NephroThai or Center-->
+<!--database config-->
+<configs>
+  <location>2</location>
+  <path>C:\Users\bambo\OneDrive\Desktop\TRT\1715TRTSystem3.4.0.0\1715TRTSystem3.4.0.0\Database</path>
+  <filename>1715TRTDatabase.mdb</filename>
+  <centerid>1715</centerid>
+  <centername>บุญสุขคลินิกเวชกรรม</centername>
+</configs>

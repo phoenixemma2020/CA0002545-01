@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReportPTDC" targetNamespace="http://tempuri.org/dsReportPTDC.xsd" xmlns:mstns="http://tempuri.org/dsReportPTDC.xsd" xmlns="http://tempuri.org/dsReportPTDC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReportPTDC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReportPTDC" msprop:Generator_UserDSName="dsReportPTDC">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsReportPTDC" msprop:Generator_TableClassName="dsReportPTDCDataTable" msprop:Generator_TableVarName="tabledsReportPTDC" msprop:Generator_RowChangedName="dsReportPTDCRowChanged" msprop:Generator_TablePropName="_dsReportPTDC" msprop:Generator_RowDeletingName="dsReportPTDCRowDeleting" msprop:Generator_RowChangingName="dsReportPTDCRowChanging" msprop:Generator_RowEvHandlerName="dsReportPTDCRowChangeEventHandler" msprop:Generator_RowDeletedName="dsReportPTDCRowDeleted" msprop:Generator_RowClassName="dsReportPTDCRow" msprop:Generator_UserTableName="dsReportPTDC" msprop:Generator_RowEvArgName="dsReportPTDCRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PatientID" msprop:Generator_ColumnVarNameInTable="columnPatientID" msprop:Generator_ColumnPropNameInRow="PatientID" msprop:Generator_ColumnPropNameInTable="PatientIDColumn" msprop:Generator_UserColumnName="PatientID" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Surname" msprop:Generator_ColumnVarNameInTable="columnSurname" msprop:Generator_ColumnPropNameInRow="Surname" msprop:Generator_ColumnPropNameInTable="SurnameColumn" msprop:Generator_UserColumnName="Surname" type="xs:string" minOccurs="0" />
+              <xs:element name="CenterID" msprop:Generator_ColumnVarNameInTable="columnCenterID" msprop:Generator_ColumnPropNameInRow="CenterID" msprop:Generator_ColumnPropNameInTable="CenterIDColumn" msprop:Generator_UserColumnName="CenterID" type="xs:string" minOccurs="0" />
+              <xs:element name="NameCenterID" msprop:Generator_ColumnVarNameInTable="columnNameCenterID" msprop:Generator_ColumnPropNameInRow="NameCenterID" msprop:Generator_ColumnPropNameInTable="NameCenterIDColumn" msprop:Generator_UserColumnName="NameCenterID" type="xs:string" minOccurs="0" />
+              <xs:element name="NameTreatMethod" msprop:Generator_ColumnVarNameInTable="columnNameTreatMethod" msprop:Generator_ColumnPropNameInRow="NameTreatMethod" msprop:Generator_ColumnPropNameInTable="NameTreatMethodColumn" msprop:Generator_UserColumnName="NameTreatMethod" type="xs:string" minOccurs="0" />
+              <xs:element name="sStatus" msprop:Generator_ColumnVarNameInTable="columnsStatus" msprop:Generator_ColumnPropNameInRow="sStatus" msprop:Generator_ColumnPropNameInTable="sStatusColumn" msprop:Generator_UserColumnName="sStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="OutcomeHDPDID" msprop:Generator_ColumnVarNameInTable="columnOutcomeHDPDID" msprop:Generator_ColumnPropNameInRow="OutcomeHDPDID" msprop:Generator_ColumnPropNameInTable="OutcomeHDPDIDColumn" msprop:Generator_UserColumnName="OutcomeHDPDID" type="xs:string" minOccurs="0" />
+              <xs:element name="OutcomePDHDID" msprop:Generator_ColumnVarNameInTable="columnOutcomePDHDID" msprop:Generator_ColumnPropNameInRow="OutcomePDHDID" msprop:Generator_ColumnPropNameInTable="OutcomePDHDIDColumn" msprop:Generator_UserColumnName="OutcomePDHDID" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseOfChangeID" msprop:Generator_ColumnVarNameInTable="columnCauseOfChangeID" msprop:Generator_ColumnPropNameInRow="CauseOfChangeID" msprop:Generator_ColumnPropNameInTable="CauseOfChangeIDColumn" msprop:Generator_UserColumnName="CauseOfChangeID" type="xs:string" minOccurs="0" />
+              <xs:element name="NameCauseOfChangeID" msprop:Generator_ColumnVarNameInTable="columnNameCauseOfChangeID" msprop:Generator_ColumnPropNameInRow="NameCauseOfChangeID" msprop:Generator_ColumnPropNameInTable="NameCauseOfChangeIDColumn" msprop:Generator_UserColumnName="NameCauseOfChangeID" type="xs:string" minOccurs="0" />
+              <xs:element name="CN" msprop:Generator_ColumnVarNameInTable="columnCN" msprop:Generator_ColumnPropNameInRow="CN" msprop:Generator_ColumnPropNameInTable="CNColumn" msprop:Generator_UserColumnName="CN" type="xs:string" minOccurs="0" />
+              <xs:element name="TreatBeginDate" msprop:Generator_ColumnVarNameInTable="columnTreatBeginDate" msprop:Generator_ColumnPropNameInRow="TreatBeginDate" msprop:Generator_ColumnPropNameInTable="TreatBeginDateColumn" msprop:Generator_UserColumnName="TreatBeginDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseOfChangeEndDate" msprop:Generator_ColumnVarNameInTable="columnCauseOfChangeEndDate" msprop:Generator_ColumnPropNameInRow="CauseOfChangeEndDate" msprop:Generator_ColumnPropNameInTable="CauseOfChangeEndDateColumn" msprop:Generator_UserColumnName="CauseOfChangeEndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="SelectCenterID" msprop:Generator_ColumnVarNameInTable="columnSelectCenterID" msprop:Generator_ColumnPropNameInRow="SelectCenterID" msprop:Generator_ColumnPropNameInTable="SelectCenterIDColumn" msprop:Generator_UserColumnName="SelectCenterID" type="xs:string" minOccurs="0" />
+              <xs:element name="chkTreatBeginDate" msprop:Generator_ColumnVarNameInTable="columnchkTreatBeginDate" msprop:Generator_ColumnPropNameInRow="chkTreatBeginDate" msprop:Generator_ColumnPropNameInTable="chkTreatBeginDateColumn" msprop:Generator_UserColumnName="chkTreatBeginDate" type="xs:string" minOccurs="0" />
+              <xs:element name="chkCauseOfChangeDate" msprop:Generator_ColumnVarNameInTable="columnchkCauseOfChangeDate" msprop:Generator_ColumnPropNameInRow="chkCauseOfChangeDate" msprop:Generator_ColumnPropNameInTable="chkCauseOfChangeDateColumn" msprop:Generator_UserColumnName="chkCauseOfChangeDate" type="xs:string" minOccurs="0" />
+              <xs:element name="TreatBeginStartDate" msprop:Generator_ColumnVarNameInTable="columnTreatBeginStartDate" msprop:Generator_ColumnPropNameInRow="TreatBeginStartDate" msprop:Generator_ColumnPropNameInTable="TreatBeginStartDateColumn" msprop:Generator_UserColumnName="TreatBeginStartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="TreatBeginEndDate" msprop:Generator_ColumnVarNameInTable="columnTreatBeginEndDate" msprop:Generator_ColumnPropNameInRow="TreatBeginEndDate" msprop:Generator_ColumnPropNameInTable="TreatBeginEndDateColumn" msprop:Generator_UserColumnName="TreatBeginEndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseChangeStartDate" msprop:Generator_ColumnVarNameInTable="columnCauseChangeStartDate" msprop:Generator_ColumnPropNameInRow="CauseChangeStartDate" msprop:Generator_ColumnPropNameInTable="CauseChangeStartDateColumn" msprop:Generator_UserColumnName="CauseChangeStartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseChangeEndDate" msprop:Generator_ColumnVarNameInTable="columnCauseChangeEndDate" msprop:Generator_ColumnPropNameInRow="CauseChangeEndDate" msprop:Generator_ColumnPropNameInTable="CauseChangeEndDateColumn" msprop:Generator_UserColumnName="CauseChangeEndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="UserCenter" msprop:Generator_ColumnVarNameInTable="columnUserCenter" msprop:Generator_ColumnPropNameInRow="UserCenter" msprop:Generator_ColumnPropNameInTable="UserCenterColumn" msprop:Generator_UserColumnName="UserCenter" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
