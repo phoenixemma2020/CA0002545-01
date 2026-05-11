@@ -3,7 +3,7 @@
 <!--database config-->
 <configs>
   <location>2</location>
-  <path>C:\Users\bambo\OneDrive\Desktop\TRT\1715TRTSystem3.4.0.0\1715TRTSystem3.4.0.0\Database</path>
+  <path>D:\CA0002545-01\1715TRTSystem3.4.0.0\Database</path>
   <filename>1715TRTDatabase.mdb</filename>
   <centerid>1715</centerid>
   <centername>บุญสุขคลินิกเวชกรรม</centername>
